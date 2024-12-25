@@ -1,0 +1,780 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* overflow: auto; */
+}
+
+
+.custom-nav {
+        background-color: #38A538;
+        height: 85px;
+        margin-bottom: 3px;
+}
+
+.custom-home {
+        margin-top: 20px;
+    padding-right: 50px;
+}
+
+.custom-text {
+    font: color white;
+}
+
+
+.custom-card {
+        height: 400px;
+}
+
+.custom-height {
+    border-color: #38A538;
+    margin: 5px;
+}
+
+
+.custom-box {
+    width: 100%;
+    margin-top: 15px;
+    padding-top: 10px;
+    
+   }
+
+   .custom-card1 {
+    border-color: #38A538;
+   }
+
+.custom-font {
+    font-size: 15px;
+    text-align: center;
+}
+
+
+
+/* ======== Footer ======= */
+
+.custom-fheigt {
+    height: 380px;
+    margin-left: 50px;
+    padding-top: 20px;
+    padding-left: 15px;
+}
+
+.custom-fheigt1 {
+    height: 25px;
+    margin-top: 5px;
+    margin-left: 10px;
+   border-color: aliceblue;
+}
+
+.career {
+    justify-content: center;
+    margin-left: 700px;
+}
+
+.career-1 {
+    justify-content: center;
+    margin-left: 850px;
+}
+
+.btn-100 {
+    justify-content: center;
+    margin-left: 925px;
+    height: 40px;
+    width: 150px;
+    font-size: 18px;
+    background-color: #F68821;
+    border-radius: 5px;
+    color: beige;
+    border-style: none;
+
+}
+
+.career-box {
+    margin-top: 150px;
+}
+
+.custom-f2 {
+   /* margin-left: 50px; */
+   padding-left: 100px;
+}
+
+.custom-f3 {
+    /* margin-right: 50px; */
+ }
+
+ .privacy {
+    text-align: center;
+ }
+
+ .custom-font {
+    font-size: 14px;
+ }
+
+ .card-text {
+    text-align: center;
+ }
+
+
+
+ /* =========== Divice Responsive ========== */
+
+ /* ===search and logo=== */
+
+ @media screen and (max-width: 1000px) {
+    .custom-nav {
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-top: 3px;  
+        width: 100%;
+        overflow: hidden;
+    }
+ }
+ @media screen and (max-width: 995px) {
+    .custom-nav {
+        width: 99%;
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-top: 3px;  
+        overflow: hidden;
+    }
+ }
+
+ @media screen and (max-width: 992px) {
+    .custom-nav {
+        width: 99%; 
+        overflow: hidden;
+    }
+ }
+  
+ @media screen and (max-width: 991px) {
+    .custom-nav {
+        width: 98%; 
+        overflow: hidden;
+    }
+ }
+
+ @media screen and (max-width: 990px) {
+    .custom-nav {
+        width: 98%; 
+        overflow: hidden;
+    }
+ }
+
+ @media screen and (max-width: 889px) {
+    .custom-nav {
+        width: 300px; 
+    }
+ }
+
+ @media screen and (max-width: 829px) {
+    .custom-nav {
+        width: 900px !important;
+    }
+ }
+
+ @media screen and (max-width: 988px) {
+    .custom-nav {
+        width: 99%; 
+        overflow: hidden;
+    }
+ } @media screen and (max-width: 987px) {
+    .custom-nav {
+        width: 99%; 
+        overflow: hidden;
+    }
+ } @media screen and (max-width: 986px) {
+    .custom-nav {
+        width: 99%; 
+        overflow: hidden;
+    }
+ } @media screen and (max-width: 985px) {
+    .custom-nav {
+        width: 98%; 
+        overflow: hidden;
+    }
+ } @media screen and (max-width: 984px) {
+    .custom-nav {
+        width: 98%; 
+        overflow: hidden;
+    }
+ } @media screen and (max-width: 983px) {
+    .custom-nav {
+        width: 98%; 
+        overflow: hidden;
+    }
+ } @media screen and (max-width: 982px) {
+    .custom-nav {
+        width: 98%; 
+        overflow: hidden;
+    }
+ } @media screen and (max-width: 981px) {
+    .custom-nav {
+        width: 98%; 
+        overflow: hidden;
+    }
+ } @media screen and (max-width: 980px) {
+    .custom-nav {
+        width: 98%; 
+        overflow: hidden;
+    }
+ } @media screen and (max-width: 979px) {
+    .custom-nav {
+        width: 98%; 
+        overflow: hidden;
+    }
+ } 
+ 
+ @media screen and (max-width: 978px) {
+    .custom-nav {
+        width: 98%; 
+        overflow: hidden;
+    }
+ } 
+ 
+ @media screen and (max-width: 977px) {
+    .custom-nav {
+        width: 100%; 
+    }
+ }
+
+ @media screen and (max-width: 972px) {
+    .custom-nav {
+        width: 100%; 
+        overflow: hidden;
+    }
+ }
+
+
+ @media screen and (max-width: 964px) {
+    .custom-nav {
+        width: 100%; 
+        overflow: hidden;
+    }
+ } 
+
+ @media screen and (max-width: 961px) {
+    .custom-nav {
+        width: 100%; 
+        overflow: hidden;
+    }
+ } 
+ 
+  @media screen and (max-width: 955px) {
+    .custom-nav {
+        width: 100%; 
+        overflow: hidden;
+    }
+ }
+
+ @media screen and (max-width: 953px) {
+    .custom-nav {
+        width: 100%; 
+        overflow: hidden;
+    }
+ }
+
+ @media screen and (max-width: 950px) {
+    .custom-nav {
+        width: 100%; 
+        overflow: hidden;
+    }
+ }
+
+ @media screen and (max-width: 945px) {
+    .custom-nav {
+        width: 100%; 
+        overflow: hidden;
+    }
+ }
+
+ @media screen and (max-width: 942px) {
+    .custom-nav {
+        width: 100%; 
+        overflow: hidden;
+    }
+ }
+
+ @media screen and (max-width: 939px) {
+    .custom-nav {
+        width: 100%; 
+        overflow: hidden;
+    }
+ }
+
+ @media screen and (max-width: 932px) {
+    .custom-nav {
+        width: 100%; 
+        overflow: hidden;
+    }
+ }
+
+ @media screen and (max-width: 924px) {
+    .custom-nav {
+        width: 100%; 
+        overflow: hidden;
+    }
+ }
+
+ @media screen and (max-width: 920px) {
+    .custom-nav {
+        width: 100%; 
+        overflow: hidden;
+    }
+ }
+
+ @media screen and (max-width: 915px) {
+    .custom-nav {
+        width: 100%; 
+        overflow: hidden;
+    }
+ }
+
+ @media screen and (max-width: 894px) {
+    .custom-nav {
+        width: 100%; 
+        overflow: hidden;
+    }
+ }
+
+ @media screen and (max-width: 885px) {
+    .custom-nav {
+        width: 100%; 
+        overflow: hidden;
+    }
+ }
+
+ @media screen and (max-width: 878px) {
+    .custom-nav {
+        width: 100%; 
+        overflow: hidden;
+    }
+ }
+
+ @media screen and (max-width: 851px) {
+    .custom-nav {
+        width: 100%; 
+        overflow: hidden;
+    }
+ }
+
+ @media screen and (max-width: 840px) {
+    .custom-nav {
+        width: 100%; 
+        overflow: hidden;
+    }
+ }
+
+ @media screen and (max-width: 828px) {
+    .custom-nav {
+        width: 100%; 
+        overflow: hidden;
+    }
+ }
+
+ @media screen and (max-width: 820px) {
+    .custom-nav {
+        width: 100%; 
+        overflow: hidden;
+    }
+ }
+
+ @media screen and (max-width: 815px) {
+    .custom-nav {
+        width: 100%; 
+        overflow: hidden;
+    }
+ }
+
+ @media screen and (max-width: 810px) {
+    .custom-nav {
+        width: 100%; 
+        overflow: hidden;
+    }
+ }
+
+ @media screen and (max-width: 802px) {
+    .custom-nav {
+        width: 100%; 
+        overflow: hidden;
+    }
+ }
+
+ @media screen and (max-width: 790px) {
+    .custom-nav {
+        width: 100%; 
+        overflow: hidden;
+    }
+ }
+
+
+ @media screen and (max-width: 781px) {
+    .custom-nav {
+        width: 100%; 
+        overflow: hidden;
+    }
+ }
+
+ @media screen and (max-width: 775px) {
+    .custom-nav {
+        width: 100%; 
+        overflow: hidden;
+    }
+ }
+
+ @media screen and (max-width: 765px) {
+    .custom-nav {
+        width: 100%; 
+        overflow: hidden;
+    }
+ }
+
+ @media screen and (max-width: 750px) {
+    .custom-nav {
+        width: 100%; 
+        overflow: hidden;
+    }
+ }
+
+ @media screen and (max-width: 735px) {
+    .custom-nav {
+        width: 100%; 
+        overflow: hidden;
+    }
+ }
+
+ @media screen and (max-width: 712px) {
+    .custom-nav {
+        width: 100%; 
+        overflow: hidden;
+    }
+ }
+
+ @media screen and (max-width: 696px) {
+    .custom-nav {
+        width: 100%; 
+        overflow: hidden;
+    }
+ }
+
+ @media screen and (max-width: 677px) {
+    .custom-nav {
+        width: 100%; 
+        overflow: hidden;
+    }
+ }
+
+ @media screen and (max-width: 672px) {
+    .custom-nav {
+        width: 100%; 
+        overflow: hidden;
+    }
+ }
+
+ @media screen and (max-width: 665px) {
+    .custom-nav {
+        width: 100%; 
+        overflow: hidden;
+    }
+ }
+
+ @media screen and (max-width: 660px) {
+    .custom-nav {
+        width: 100%; 
+        overflow: hidden;
+    }
+ }
+
+ @media screen and (max-width: 650px) {
+    .custom-nav {
+        width: 100%; 
+        overflow: hidden;
+    }
+ }
+
+ @media screen and (max-width: 641px) {
+    .custom-nav {
+        width: 100%; 
+        overflow: hidden;
+    }
+ }
+
+ @media screen and (max-width: 630px) {
+    .custom-nav {
+        width: 100%; 
+        overflow: hidden;
+    }
+ }
+
+ @media screen and (max-width: 600px) {
+    .custom-nav {
+        width: 100%; 
+        overflow: hidden;
+    }
+ }
+
+ @media screen and (max-width: 575px) {
+    .custom-nav {
+        width: 99%; 
+        overflow: hidden;
+    }
+ }
+
+ @media screen and (max-width: 565px) {
+    .custom-nav {
+        width: 100%; 
+        overflow: hidden;
+    }
+ }
+
+ @media screen and (max-width: 530px) {
+    .custom-nav {
+        width: 100%; 
+        overflow: hidden;
+    }
+ }
+
+ @media screen and (max-width: 510px) {
+    .custom-nav {
+        width: 100%; 
+        overflow: hidden;
+    }
+ }
+
+ @media screen and (max-width: 488px) {
+    .custom-nav {
+        width: 100%; 
+        overflow: hidden;
+    }
+ }
+
+ @media screen and (max-width: 455px) {
+    .custom-nav {
+        width: 100%; 
+        overflow: hidden;
+    }
+ }
+
+ @media screen and (max-width: 437px) {
+    .custom-nav {
+        width: 100%; 
+        overflow: hidden;
+    }
+ }
+
+ @media screen and (max-width: 400px) {
+    .custom-nav {
+        width: 100%; 
+        overflow: hidden;
+    }
+ }
+
+ @media screen and (max-width: 373px) {
+    .custom-nav {
+        width: 100%; 
+        overflow: hidden;
+    }
+ }
+
+ @media screen and (max-width: 357px) {
+    .custom-nav {
+        width: 100%; 
+        overflow: hidden;
+    }
+ }
+
+ @media screen and (max-width: 338px) {
+    .custom-nav {
+        width: 100%; 
+        overflow: hidden;
+    }
+ }
+
+ @media screen and (max-width: 320px) {
+    .custom-nav {
+        width: 100%; 
+        overflow: hidden;
+    }
+ }
+
+
+ @media screen and (max-width: 310px) {
+    .custom-nav {
+        width: 100%; 
+        overflow: hidden;
+    }
+ }
+
+ @media screen and (max-width: 300px) {
+    .custom-nav {
+        width: 100%; 
+        overflow: hidden;
+    }
+ }
+
+ @media screen and (max-width: 290px) {
+    .custom-nav {
+        width: 100%; 
+        overflow: hidden;
+    }
+ }
+
+
+
+ /* ======= Products Responsive ======== */
+
+
+ @media screen and (max-width: 1496px) {
+    .custom-height {
+        margin: 9px; 
+        width: 200px !important;       
+    }
+    
+ }
+
+ @media screen and (max-width: 1401px) {
+    .custom-height {
+            margin: 9px; 
+            width: 200px !important;       
+        }     
+ }
+
+ @media screen and (max-width: 1400px) {
+    .custom-height {
+            margin: 10px; 
+            width: 205px !important;       
+        }     
+ }
+
+ @media screen and (max-width: 1200px) {
+    .custom-height {
+        margin: 5px;
+        width: 230px !important;       
+        }     
+ }
+
+ @media screen and (max-width: 768px) {
+    .custom-height {
+        margin: 5px;
+        width: 230px !important;       
+        }     
+ }
+
+ @media screen and (max-width: 767px) {
+    .custom-height {
+        margin: 5px;
+        width: 255px !important;       
+        }     
+ }
+
+ @media screen and (max-width: 530px) {
+    .custom-height {
+        margin: 5px;
+        width: 250px !important;       
+        }     
+ }
+
+ @media screen and (max-width: 520px) {
+    .custom-height {
+        margin: 5px;
+        width: 245px !important;       
+        }     
+ }
+
+ @media screen and (max-width: 510px) {
+    .custom-height {
+        margin: 5px;
+        width: 240px !important;       
+        }     
+ }
+
+ @media screen and (max-width: 500px) {
+    .custom-height {
+        margin: 5px;
+        width: 237px !important;       
+        }     
+ }
+
+ @media screen and (max-width: 494px) {
+    .custom-height {
+        margin: 5px;
+        width: 234px !important;       
+        }     
+ }
+
+ @media screen and (max-width: 488px) {
+    .custom-height {
+        margin: 4px;
+        width: 232px !important;       
+        }     
+ }
+
+ @media screen and (max-width: 480px) {
+    .custom-height {
+        margin: 4px;
+        width: 230px !important;       
+        }     
+ }
+
+ @media screen and (max-width: 476px) {
+    .custom-height {
+        margin: 4px;
+        width: 228px !important;       
+        }     
+ }
+
+ @media screen and (max-width: 472px) {
+    .custom-height {
+        margin: 4px;
+        width: 250px !important;       
+        }     
+ }
+
+
+
+
+ /* =========Products Responsive End ======= */
+
+
+
+/* =============Footer Responsive Start =========== */
+
+
+@media screen and (max-width: 992px) {
+    .custom-fheigt {
+      height: 450px;
+      background-color: #38A538;
+      text-overflow: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .custom-fheigt {
+      height: 570px;
+      background-color: #38A538;
+      text-overflow: none;
+    }
+}
+
+@media screen and (max-width: 577px) {
+    .custom-fheigt {
+      height: 620px;
+      background-color: #38A538;
+      text-overflow: none;
+      font-size: small
+    }
+}
+
+
+@media screen and (max-width: 495px) {
+    .custom-fheigt {
+      height: 680px;
+      background-color: #38A538;
+      text-overflow: none;
+    }
+}
+
+
+
+
+
+/* =============Footer Responsive End =========== */
