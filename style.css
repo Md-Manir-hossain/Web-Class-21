@@ -8,7 +8,7 @@
 
 .custom-nav {
         background-color: #38A538;
-        height: 85px;
+        height: 95px;
         margin-bottom: 3px;
 }
 
@@ -141,93 +141,142 @@
 
  @media screen and (max-width: 992px) {
     .custom-nav {
-        width: 99%; 
-        overflow: hidden;
+        width: 100% !important; 
     }
  }
   
  @media screen and (max-width: 991px) {
     .custom-nav {
-        width: 98%; 
-        overflow: hidden;
+        width: 100% !important; 
     }
  }
 
  @media screen and (max-width: 990px) {
     .custom-nav {
-        width: 98%; 
-        overflow: hidden;
+        width: 100% !important; 
     }
  }
 
  @media screen and (max-width: 889px) {
     .custom-nav {
-        width: 300px; 
+        width: 100% !important; 
     }
  }
 
+ @media screen and (max-width: 871px) {
+    .custom-nav {
+        width: 100% !important; 
+    }
+ }
+
+ @media screen and (max-width: 862px) {
+    .custom-nav {
+        width: 100% !important; 
+    }
+ }
+
+ @media screen and (max-width: 857px) {
+    .custom-nav {
+        width: 100% !important; 
+    }
+ }
+
+ @media screen and (max-width: 853px) {
+    .custom-nav {
+        width: 100% !important; 
+    }
+ }
+
+ @media screen and (max-width: 845px) {
+    .custom-nav {
+        width: 100% !important; 
+    }
+ }
+
+ @media screen and (max-width: 840px) {
+    .custom-nav {
+        width: 100% !important; 
+    }
+ }
+
+
+
  @media screen and (max-width: 829px) {
     .custom-nav {
-        width: 900px !important;
+        width: 100% !important;
+    }
+ }
+
+ @media screen and (max-width: 817px) {
+    .custom-nav {
+        width: 100% !important;
     }
  }
 
  @media screen and (max-width: 988px) {
     .custom-nav {
-        width: 99%; 
-        overflow: hidden;
+        width: 100% !important; 
     }
- } @media screen and (max-width: 987px) {
+ } 
+ 
+ @media screen and (max-width: 987px) {
     .custom-nav {
-        width: 99%; 
-        overflow: hidden;
+        width: 100% !important; 
     }
- } @media screen and (max-width: 986px) {
+ } 
+ 
+ @media screen and (max-width: 986px) {
     .custom-nav {
-        width: 99%; 
-        overflow: hidden;
+        width: 100% !important; 
     }
- } @media screen and (max-width: 985px) {
+ } 
+ 
+ @media screen and (max-width: 985px) {
     .custom-nav {
-        width: 98%; 
-        overflow: hidden;
+        width: 100% !important; 
     }
- } @media screen and (max-width: 984px) {
+ } 
+ 
+ @media screen and (max-width: 984px) {
     .custom-nav {
-        width: 98%; 
-        overflow: hidden;
+        width: 100% !important; 
     }
  } @media screen and (max-width: 983px) {
     .custom-nav {
-        width: 98%; 
-        overflow: hidden;
+        width: 100% !important; 
+
     }
- } @media screen and (max-width: 982px) {
+ } 
+ 
+ @media screen and (max-width: 982px) {
     .custom-nav {
-        width: 98%; 
-        overflow: hidden;
+        width: 100% !important; 
+
     }
- } @media screen and (max-width: 981px) {
+ } 
+ 
+ @media screen and (max-width: 981px) {
     .custom-nav {
-        width: 98%; 
-        overflow: hidden;
+        width: 100% !important; 
     }
- } @media screen and (max-width: 980px) {
+ } 
+ 
+ @media screen and (max-width: 980px) {
     .custom-nav {
-        width: 98%; 
-        overflow: hidden;
+        width: 100% !important; 
     }
- } @media screen and (max-width: 979px) {
+ } 
+ 
+ @media screen and (max-width: 979px) {
     .custom-nav {
-        width: 98%; 
-        overflow: hidden;
+        width: 100% !important; 
     }
  } 
  
  @media screen and (max-width: 978px) {
     .custom-nav {
-        width: 98%; 
-        overflow: hidden;
+        width: 100% !important; 
+
     }
  } 
  
@@ -405,7 +454,12 @@
  @media screen and (max-width: 790px) {
     .custom-nav {
         width: 100%; 
-        overflow: hidden;
+    }
+ }
+
+ @media screen and (max-width: 785px) {
+    .custom-nav {
+        width: 100%; 
     }
  }
 
@@ -413,28 +467,24 @@
  @media screen and (max-width: 781px) {
     .custom-nav {
         width: 100%; 
-        overflow: hidden;
     }
  }
 
  @media screen and (max-width: 775px) {
     .custom-nav {
         width: 100%; 
-        overflow: hidden;
     }
  }
 
  @media screen and (max-width: 765px) {
     .custom-nav {
         width: 100%; 
-        overflow: hidden;
     }
  }
 
  @media screen and (max-width: 750px) {
     .custom-nav {
         width: 100%; 
-        overflow: hidden;
     }
  }
 
@@ -518,7 +568,12 @@
  @media screen and (max-width: 576px) {
     .custom-nav {
         width: 100% !important; 
-        overflow: hidden;
+    }
+ }
+
+ @media screen and (max-width: 574px) {
+    .custom-nav {
+        width: 100% !important; 
     }
  }
 
@@ -671,6 +726,34 @@
  }
 
  @media screen and (max-width: 767px) {
+    .custom-height {
+        margin: 5px;
+        width: 255px !important;       
+        }     
+ }
+
+ @media screen and (max-width: 577px) {
+    .custom-height {
+        margin: 5px;
+        width: 275px !important;       
+        }     
+ }
+
+ @media screen and (max-width: 570px) {
+    .custom-height {
+        margin: 5px;
+        width: 270px !important;       
+        }     
+ }
+
+ @media screen and (max-width: 560px) {
+    .custom-height {
+        margin: 5px;
+        width: 265px !important;       
+        }     
+ }
+
+ @media screen and (max-width: 550px) {
     .custom-height {
         margin: 5px;
         width: 255px !important;       
