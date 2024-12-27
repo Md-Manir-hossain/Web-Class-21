@@ -8,8 +8,6 @@
 
 .custom-nav {
         background-color: #38A538;
-        height: 95px;
-        margin-bottom: 3px;
 }
 
 .custom-home {
@@ -53,17 +51,26 @@
 /* ======== Footer ======= */
 
 .custom-fheigt {
-    height: 380px;
+    height: 400px;
     margin-left: 50px;
     padding-top: 20px;
     padding-left: 15px;
+    border-style:solid;
+    text-align: center;
 }
 
-.custom-fheigt1 {
+/* .custom-fheigt1 {
     height: 25px;
     margin-top: 5px;
     margin-left: 10px;
    border-color: aliceblue;
+} */
+
+.custom-h4 {
+    text-align: center;
+    padding: 5px;
+    margin-left: 80px;
+    margin-right: 80px;
 }
 
 .career {
@@ -93,14 +100,6 @@
     margin-top: 150px;
 }
 
-.custom-f2 {
-   /* margin-left: 50px; */
-   padding-left: 100px;
-}
-
-.custom-f3 {
-    /* margin-right: 50px; */
- }
 
  .privacy {
     text-align: center;
@@ -114,6 +113,14 @@
     text-align: center;
  }
 
+ .custom-bg {
+    background-color: white;
+    border-style: double;
+    padding: 0.90px;
+    margin-left: 10px;
+ }
+
+
 
 
  /* =========== Divice Responsive ========== */
@@ -121,7 +128,18 @@
  /* ===search and logo=== */
 
  @media screen and (max-width: 869px) {
-    width: 100% !important;
+    .custom-nav {
+        width: 100% !important;
+    }
+    
+ }
+
+
+ @media screen and (max-width: 576px) {
+    .custom-nav {
+        width: 100% !important;
+    }
+    
  }
 
 
@@ -176,12 +194,12 @@
         }     
  }
 
- /* @media screen and (max-width: 767px) {
+ @media screen and (max-width: 767px) {
     .custom-height {
         margin: 5px;
         width: 255px !important;       
         }     
- } */
+ }
 
  @media screen and (max-width: 577px) {
     .custom-height {
@@ -406,5 +424,299 @@
 
 
 
+
+
+
+
+@media screen and (max-width: 1389px) {
+    .custom-fheigt {
+        height: 420px;
+    }
+}
+
+@media screen and (max-width: 1347px) {
+    .custom-fheigt {
+        height: 440px;
+    }
+
+    .custom-h4 {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 1261px) {
+    .custom-h4 {
+        margin-left: 60px;
+        margin-right: 60px;
+    }
+}
+
+@media screen and (max-width: 1101px) {
+    .custom-h4 {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+}
+
+@media screen and (max-width: 1021px) {
+    .custom-h4 {
+        margin-left: 35px;
+        margin-right: 35px;
+    }
+}
+
+
+@media screen and (max-width: 901px) {
+    .custom-h4 {
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+
+    .custom-fheigt {
+        height: 450px;
+    }
+}
+
+@media screen and (max-width: 881px) {
+    .custom-h4 {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .custom-fheigt {
+        height: 490px;
+    }
+}
+
+/* @media screen and (max-width: 769px) {
+    .custom-h4 {
+        margin-left: 100%;
+        margin-right: 100%;
+    }
+
+    .custom-fheigt {
+        height: 565px;
+    }
+} */
+
+@media screen and (max-width: 768px) {
+    .custom-h4 {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .custom-fheigt {
+        height: 600px;
+    }
+}
+
+@media screen and (max-width: 608px) {
+    .custom-h4 {
+        margin-left: 60px;
+        margin-right: 60px;
+    }
+
+    .custom-fheigt {
+        height: 610px;
+    }
+}
+
+@media screen and (max-width: 577px) {
+    .custom-h4 {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+
+    .custom-cright {
+        font-size: 14px;
+    }
+
+    .custom-fheigt {
+        height: 590px;
+    }
+}
+
+@media screen and (max-width: 424px) {
+    .custom-h4 {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+
+    .custom-cright {
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 401px) {
+        .custom-cright {
+        font-size: 11px;
+    }
+}
+
+@media screen and (max-width: 417px) {
+    .custom-h4 {
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 16px;
+    }
+
+    .custom-cright {
+        font-size: 15px;
+    }
+
+    .custom-fheigt {
+        height: 595px;
+    }
+}
+
+@media screen and (max-width: 373px) {
+    .custom-h4 {
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 14px;
+    }
+
+    .custom-cright {
+        font-size: 15px;
+    }
+
+    .custom-fheigt {
+        height: 600px;
+    }
+}
+
+@media screen and (max-width: 373px) {
+    .custom-h4 {
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 12px;
+    }
+
+    .custom-cright {
+        font-size: 14px;
+    }
+
+    .custom-fheigt {
+        height: 610px;
+    }
+}
+
+@media screen and (max-width: 330px) {
+    .custom-h4 {
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 10px;
+    }
+
+    .custom-cright {
+        font-size: 13px;
+    }
+
+    .custom-fheigt {
+        height: 620px;
+    }
+}
+
+@media screen and (max-width: 313px) {
+    .custom-h4 {
+        font-size: 10px;
+    }
+
+    .custom-cright {
+        font-size: 12px;
+    }
+
+    .custom-fheigt {
+        height: 650px;
+    }
+}
+
+@media screen and (max-width: 309px) {
+    .custom-h4 {
+        font-size: 9px;
+    }
+
+    .custom-cright {
+        font-size: 10px;
+    }
+
+    .custom-fheigt {
+        height: 650px;
+    }
+}
+
+@media screen and (max-width: 298px) {
+    .custom-h4 {
+        font-size: 9px;
+        width: 100%;
+    }
+
+    .custom-cright {
+        font-size: 10px;
+    }
+
+    .custom-fheigt {
+        height: 650px;
+    }
+}
+
+@media screen and (max-width: 273px) {
+    .custom-h4 {
+        font-size: 9px;
+        width: 100%;
+    }
+
+    .custom-cright {
+        font-size: 10px;
+    }
+
+    .custom-fheigt {
+        height: 685px;
+    }
+}
+
+/* @media screen and (max-width: 313px) {
+    .custom-h4 {
+        margin-left: 2px;
+        margin-right: 2px;
+        font-size: 11px;
+    }
+
+    .custom-copiright {
+        font-size: 5px;
+    }
+
+    .custom-fheigt {
+        height: 640px;
+    }
+} */
+
+@media screen and (max-width: 497px) {
+    .custom-h4 {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .custom-fheigt {
+        height: 592px;
+    }
+}
+
+/* @media screen and (max-width: 768px) {
+    .custom-h4 {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .custom-fheigt {
+        height: 495px;
+    }
+} */
+
+@media screen and (max-width: 1030px) {
+    .custom-copiright {
+        font-size: 15px;
+     }
+}
 
 /* =============Footer Responsive End =========== */
